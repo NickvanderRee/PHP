@@ -5,8 +5,8 @@
 </head>
 <body>
     <?php 
-        $min = 1;
-        $max = 9;
+        $min = 1; //minimaal getal
+        $max = 9; //maximaal getal
         $n = 10;
  
         echo (rand(1,9)),(rand(1,9)),(rand(1,9)),(rand(1,9)); // 4x een random nummer
@@ -24,7 +24,7 @@
         return $randomString;
         }
  
-         echo " "; //een spatie
+         echo " "; //maakt een spatie
  
         echo getRandomString( $n); //random letter
     ?>
