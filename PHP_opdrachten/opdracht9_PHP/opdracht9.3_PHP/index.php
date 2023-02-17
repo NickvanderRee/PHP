@@ -7,7 +7,7 @@
         echo "<table>";
         echo "<tr>";
         echo "<td>" . "leerling" . "</td>";
-        echo "<td>" . "cijfer" . "</td>";
+        echo "<td>" .  "cijfer" . "</td>";
         echo "</tr>";
             foreach($result as &$data){
                 echo "<tr>";
