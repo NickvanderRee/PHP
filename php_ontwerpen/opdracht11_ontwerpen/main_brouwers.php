@@ -1,11 +1,11 @@
 <?php
 //Auteur: Nick van der Ree
 
-// Initialisatie.
+//Initialisatie.
 include 'functions.php';
 
-//printen overzicht van bieren.
+//Printen overzicht van brouwers.
 GetBrouwers();
-//GetBieren();
+
 
 ?>
